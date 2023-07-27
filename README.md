@@ -11,5 +11,7 @@ To run the code you will need to specify the patch width, $\sigma_{ang}$, for bo
 python patchy_temp_decrease.py 0.3 0.4 30 50
 ```
 
-An example of output files for some simulations are given in the output directory. The form of the titles is phase_ $\sigma_{tor}$(window-to-window)_ $\sigma_{tor}$(window-to-arene)_ $\sigma_{ang}$(window-to-window)_ $\sigma_{ang}$(window-to-arene)_ $J$(window-to-window)_ $J$(window-to-arene).log/gsd
+An example of output files for some simulations are given in the output directory. The titles are labelled as `phase_1.00_0.60_0.50_0.30_0_50_temp.log/gsd` where $\sigma_{tor}$(window-to-window)=1.00, $\sigma_{tor}$(window-to-arene)=0.60, $\sigma_{ang}$(window-to-window)=0.50, $\sigma_{ang}$(window-to-arene)=0.30, $J$(window-to-window)=0, and 
+$J$(window-to-arene)=50.
+
 
